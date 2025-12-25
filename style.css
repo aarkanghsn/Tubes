@@ -1,0 +1,82 @@
+body {
+    background-color: lightgrey!important;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}   
+
+.data {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 30px auto; /* Menambah jarak 30px di bawah kotak identitas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-wrapper{
+    display: grid;
+grid-template-columns: 200px 1fr;
+    gap: 20px;  
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+.value {
+    color: #555;
+}
+
+.foto-utama {
+     background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.foto {
+    display: block;
+    margin: 10px auto;
+    width: 80%; /* Atur lebar foto 80% dari kotak putih */
+    max-width: 400px; /* Batas maksimal lebar foto agar tidak terlalu besar */
+    border-radius: 8px; /* Memberikan sedikit lengkungan pada sudut foto */
+}
+
+.namamatakuliah {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto 30px auto; /* Menambah jarak 30px di bawah kotak identitas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.matakuliah{
+    text-align: center;
+}
+
+.router{
+     background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto 30px auto; /* Menambah jarak 30px di bawah kotak identitas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menargetkan gambar dengan class "router-img" */
+.router-image {
+    width: 300px; 
+    height: auto; 
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px; 
+}
